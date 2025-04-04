@@ -1,0 +1,15 @@
+
+.contHeader {
+    background: black;
+    color: white;
+    height: 85px;
+}
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+

@@ -1,0 +1,32 @@
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 100vh; */
+    padding: 50px;
+}
+
+.home form {
+    padding: 50px;
+}
+
+.home input {
+    width: 50vw;
+    text-align: center;
+}
+
+.home button {
+    background: #87CEFA;
+    border: none;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 8px;
+}
+
+.home button:hover {
+    background: #00A8FF;
+    transform: scale(1.1);
+    transition: 1.2s;
+}
