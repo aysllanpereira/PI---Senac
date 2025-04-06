@@ -23,5 +23,23 @@
 }
 
 .contNav ul li {
+    position: relative;
     cursor: pointer;
+    transition: color 0.3s ease-in-out;
 }
+
+.contNav ul li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 0%;
+    height: 3px;
+    background: red;
+    transition: width 0.3s ease-in-out;
+}
+
+.contNav ul li:hover::after {
+    width: 100%;
+}
+
