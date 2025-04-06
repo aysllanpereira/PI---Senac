@@ -1,15 +1,27 @@
 
 .contHeader {
-    background: black;
-    color: white;
+    background: white;
+    color: red;
     height: 85px;
+    
 }
 
 .conteiner {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding: 15px;
 }
 
+.contNav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    gap: 55px;
+    list-style: none;
+}
 
+.contNav ul li {
+    cursor: pointer;
+}
