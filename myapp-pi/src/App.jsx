@@ -1,12 +1,13 @@
 
-import './App.css'
 import { Home } from './Pages/Home/home'
+import './styles/App.css'
+
 
 function App() {
 
   return (
     <>
-      <Home />
+     <Home />
     </>
   )
 }
